@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    background-color: #CDCDCD;
+    
+}
+#heading{
+    padding : 20px;
+    background : black;
+    display:flex;
+    font-family : 'Inter';
+}
+h2{
+    color : white;
+}
+#Input{
+    box-sizing: border-box;
+    position: absolute;
+    width: 1226px;
+    height: 65px;
+    left: 29px;
+    top: 104px;
+    font-size : 24px;
+    font-height : 29px;
+    background: #D9D9D9;
+    border: 1px solid #000000;
+    border-radius : 5px;
+}
+#search{
+    position: absolute;
+    width: 217px;
+    height: 66px;
+    left: 1268px;
+    top: 103px;
+    background: #000000;
+    color:#FFFFFF;
+    font-family: 'Inter';
+    font-weight : 400;
+    font-size : 24px;
+    line-height : 29px;
+}
+#search:hover{
+      background-color: rgb(27, 26, 26);
+      cursor: pointer;
+}
+.sort{
+    display : flex;
+    position : absolute;
+    top: 197px;
+    left : 29px;
+}
+.sortBtn{
+    width : 217px;
+    height: 66px;
+    margin-right : 30px;
+    background-color: black;
+    color : #FFFFFF;
+    font-size : 24px;
+}
+.sortBtn:hover{
+      background-color: rgb(27, 26, 26);
+      cursor: pointer;
+}
+.tab{
+    position : absolute;
+    left : 29px;
+    top : 291px;
+    width : 1452px;
+    border : 2px solid black;
+    border-collapse: collapse;
+    background-color: #D9D9D9;
+}
+
+.tab tr,th,td{
+    height : 65px;
+    font-size : 24px;
+    font-family : 'Inter';
+    border : 2px solid #000000;
+    border-collapse: collapse;
+    text-align: center;
+    box-sizing: border-box;
+}
